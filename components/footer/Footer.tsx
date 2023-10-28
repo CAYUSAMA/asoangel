@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
         paddingX={12}
       >
         <Text fontSize="lg" fontWeight={700} width="200px">
-          adopcanem - 2022
+          ASOANGEL
         </Text>
         <Stack
           alignSelf="start"
@@ -30,10 +30,10 @@ const Footer: React.FC = () => {
           spacing={7}
           textAlign="center"
         >
-          <FooterLink href="/">Encontrá tu mascota</FooterLink>
-          <FooterLink href="/">Sobre nosotros</FooterLink>
-          <FooterLink href="/">Contáctanos</FooterLink>
-          <FooterLink href="/">Hacé tu donación</FooterLink>
+          <FooterLink href="/">Sobre Asoangel</FooterLink>
+          <FooterLink href="/">Trabajo Trabajo</FooterLink>
+          <FooterLink href="/">Nuestro Impacto</FooterLink>
+          <FooterLink href="/">Apadrina una Sonrisa</FooterLink>
         </Stack>
         <Stack direction="row" gap="10px" justifyContent="end" width="200px">
           <Link isExternal href="https://www.facebook.com/Adopcanem">

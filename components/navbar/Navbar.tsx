@@ -21,19 +21,23 @@ import NavbarLink, {NavbarLinkProps} from "./NavbarLink";
 const NAVBAR_LINKS: NavbarLinkProps[] = [
   {
     href: "/",
-    label: "Encontrá tu mascota",
+    label: "Sobre ASOANGEL",
   },
   {
     href: "/nosotros",
-    label: "Sobre nosotros",
+    label: "Nuestro Trabajo",
   },
   {
-    href: "/donacion",
-    label: "Hacé tu donación",
+    href: "/impacto",
+    label: "Nuestro Impacto",
   },
   {
     href: "/contacto",
-    label: "Contáctanos",
+    label: "Apadrina una Sonrisa",
+  },
+  {
+    href: "https://buy.stripe.com/test_28o9C83WRgjp9fG9AA",
+    label: "Donar",
   },
 ];
 
@@ -56,7 +60,7 @@ const Navbar: React.FC = () => {
           <Link href="/">
             <a>
               <Text color="primary.500" fontSize="3xl" fontWeight={900}>
-                adopcanem
+                ASOANGEL
               </Text>
             </a>
           </Link>

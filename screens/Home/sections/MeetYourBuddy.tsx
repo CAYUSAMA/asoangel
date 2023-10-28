@@ -9,8 +9,8 @@ export const MeetYourBuddy: React.FC = () => {
     <Section hasDivider backgroundColor="white" dividerColor="#F8F3E3">
       <Stack position="relative" textAlign="center">
         <Heading fontSize="5xl">
-          <Box>Conocé a tu proxima</Box>
-          <Box color="primary.500">mascota</Box>
+          <Box>Conocé nuestro </Box>
+          <Box color="primary.500">Trabajo</Box>
         </Heading>
         <Box position="relative" top="-32">
           <Grid
@@ -38,7 +38,7 @@ export const MeetYourBuddy: React.FC = () => {
               position="relative"
               w="full"
             />
-            <Button size="lg">Encontrá tu mascota</Button>
+            <Button size="lg">Conoce nuestro trabajo</Button>
           </Stack>
         </Box>
       </Stack>

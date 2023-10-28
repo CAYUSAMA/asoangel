@@ -9,27 +9,27 @@ import {ProcessCardType} from "../../../types/adopcanem.types";
 const CARDS: ProcessCardType[] = [
   {
     title: 1,
-    description: "Evaluacion de Necesidades",
+    description: "Encontrá a tu mascota",
     thumbnail:
-      "https://images.ctfassets.net/p0qf7j048i0q/D7EABCA75EE2445FABB0B5462715917D/be0d499674d53f118580f7800657cbbb/G1008271082.jpg",
+      "https://images.unsplash.com/photo-1543466835-00a7907e9de1?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074",
   },
   {
     title: 2,
-    description: "Acceso a Servicios",
+    description: "Completá el formulario",
     thumbnail:
-      "https://static-cse.canva.com/blob/599298/AulaInclusiva.jpg",
+      "https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880",
   },
   {
     title: 3,
-    description: "Apoyo Continuo",
+    description: "Conocé a tu mascota",
     thumbnail:
-      "https://www.aulamejor.com/wp-content/uploads/2022/11/Educacion-Especial.png",
+      "https://images.unsplash.com/photo-1537151625747-768eb6cf92b2?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=685",
   },
   {
     title: 4,
-    description: "Impacto Duradero",
+    description: "Dale todo tu amor",
     thumbnail:
-      "https://peritojudicial.com/content/images/2021/02/Educacion-Especial.jpg",
+      "https://images.unsplash.com/photo-1588943211346-0908a1fb0b01?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1935",
   },
 ];
 
@@ -68,7 +68,7 @@ const Process: React.FC = () => {
               textAlign="center"
               w="200px"
             >
-              Brindamos
+              El proceso
             </Box>
             <Text
               fontSize={["48px", null, null, "54px"]}
@@ -76,13 +76,13 @@ const Process: React.FC = () => {
               lineHeight={1.125}
               pt={6}
             >
-              Con Empatia y <p></p>
-              Corazon comprometido.
+              Narices frias y corazones contentos
             </Text>
           </Stack>
           <Stack alignItems="center" justifyContent="center">
-            <Text fontSize="20px" fontWeight="semibold" maxWidth="700px">
-             Asumimos un acto de empatía y un compromiso personal. Es importante estar dispuesto y capacitado para hacerlo, ya que cada apoyo que brindamos marca la diferencia en sus vidas..
+            <Text fontSize="20px" fontWeight="semibold">
+              Al momento de adoptar asumís un acto de responsabilidad y compromiso por lo que es
+              importante que estés capacitado para hacerlo.
             </Text>
           </Stack>
         </Stack>

@@ -8,25 +8,31 @@ import MeetYourBuddy from "../screens/Home/sections/MeetYourBuddy";
 import Process from "../screens/Home/sections/Process";
 import Transit from "../screens/Home/sections/Transit";
 import History from "../screens/Home/sections/History";
+import Mision from "../screens/Home/sections/mision";
+import vision from "../screens/Home/sections/vision";
 import Layout from "../components/layout/Layout";
+import Aliados from "screens/Home/sections/Aliados";
+import Team from "screens/Home/sections/Team";
 
 const Home: NextPage = () => {
   return (
     <Layout
       headProps={{
-        title: "Home | Adopcanem",
+        title: "Home | ASOANGEL",
         description:
-          "Adopcanem es una plataforma de adopción que te permite encontrar a tu nuevo compañero de vida.",
-        url: "https://adopcanem.com",
+          "ASOANGEL es una institucion sin fines de lucro  que te permite aportar a la ayuda de personas con discapacidad.",
+        url: "https://",
       }}
     >
-      <Hero />
-      <MeetYourBuddy />
-      <Process />
-      <Transit />
+      <Hero /> 
       <History />
-      <FamilySection />
-      <LifeStories />
+      <Mision />
+      <Transit />
+      <Team />
+      <MeetYourBuddy />
+      
+      
+     
     </Layout>
   );
 };

@@ -17,8 +17,11 @@ import Layout from "../components/layout/Layout";
 import Herocopy from "screens/Home/sections/Herocopy";
 import Historycopy from "../screens/Home/sections/Historycopy";
 import Aliados from "screens/Home/sections/Aliados";
+import Heroimp from "screens/Home/sections/Heroimp";
+import Impdatos from "screens/Home/sections/Impdatos";
 
-const nosotros: NextPage = () => {
+
+const impacto: NextPage = () => {
   return (
     <Layout
       headProps={{
@@ -30,10 +33,11 @@ const nosotros: NextPage = () => {
     >
       
 
-      <Herocopy /> 
-      <Process />
-      <Historycopy />
+      <Heroimp /> 
+      <Impdatos />
+      
       <Aliados />
+      
       
 
 
@@ -42,4 +46,4 @@ const nosotros: NextPage = () => {
   );
 };
 
-export default nosotros;
+export default impacto;

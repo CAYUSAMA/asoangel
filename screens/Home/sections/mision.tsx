@@ -2,13 +2,13 @@ import {Badge, Button, Stack, Text, Link} from "@chakra-ui/react";
 
 import Section from "../../../components/section/Section";
 
-const Transit: React.FC = () => {
+const Mision: React.FC = () => {
   return (
     <Section
       backgroundIsImage
       backgroundColor="gray.200"
-      backgroundImage="https://scontent.fgua2-2.fna.fbcdn.net/v/t1.6435-9/72045860_678127392691587_5259987859762315264_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=4dc865&_nc_ohc=HbwXWrvS7gYAX_XtPz3&_nc_ht=scontent.fgua2-2.fna&oh=00_AfBl8iOCTRaosLGm90mT4gzVhqzRCzWXYmxykyiiPFVKjA&oe=65512A89"
-      dividerColor="white"
+      backgroundImage="https://scontent.fgua2-2.fna.fbcdn.net/v/t39.30808-6/256250221_341393924458477_3315538120872533608_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=GSA5Jzj9lTYAX9QYvZk&_nc_ht=scontent.fgua2-2.fna&oh=00_AfDt-nuIOc4xwY0ark3TGdh_UwM7gjz2jn29vVCX1QEHAA&oe=65408635"
+      dividerColor="transparent"
     >
       <Stack
         alignItems="center"
@@ -20,12 +20,14 @@ const Transit: React.FC = () => {
         spacing={6}
         textAlign="center"
       >
-       
+        
         <Text fontSize="6xl" fontWeight={800}>
-          NUESTRA VISIÓN
+          NUESTRA MISIÓN
         </Text>
         <Text fontSize="2xl">
-        Somos una asociación comprometida con el desarrollo integral y la rehabilitación de personas con discapacidad. Promovemos la inclusión y la calidad de vida, guiados por valores como el amor, el servicio, la empatía, el respeto y la igualdad.
+        Promover el bienestar integral de personas con discapacidad, enfocada en igualdad de oportunidades y desarrollo
+        
+          
         </Text>
         <Link
           isExternal
@@ -33,11 +35,13 @@ const Transit: React.FC = () => {
           href="https://docs.google.com/forms/d/e/1FAIpQLSf197Ctn6rxvqPUrFH1gqfsMf5JfotGbHnENR2IRbTqNI7-rA/viewform"
           rel="noreferrer"
         >
-          
+          <Button colorScheme="primary" size="lg">
+            ¿COMO LO HACEMOS?
+          </Button>
         </Link>
       </Stack>
     </Section>
   );
 };
 
-export default Transit;
+export default Mision;

@@ -6,7 +6,7 @@ import {ArrowDownLeft, ArrowDownRight, HumanAndDogPulling, Paws} from "component
 
 import Section from "../../../components/section/Section";
 
-const History: React.FC = () => {
+const Historycopy: React.FC = () => {
   return (
     <Section backgroundColor="white" hasDivider={false}>
       {/* Main stack */}
@@ -20,30 +20,36 @@ const History: React.FC = () => {
             fontWeight={800}
             textColor="#363636"
           >
-            CON TU AYUDA
+            GRACIAS A TU AYUDA
           </Badge>
           <Text fontSize="5xl" fontWeight={900} textColor="#363636">
-          TRABAJAMOS CON ENTUSIASMO Y ALEGRÍA PARA ASEGURAR QUE TODAS LAS PERSONAS CON DISCAPACIDAD PUEDAN CONSTRUIR UN MEJOR FUTURO.
-          </Text>
-          <Text maxWidth="4050" fontSize="3xl">
-          Somos una asociación comprometida con el desarrollo de Guatemala, mejorando la vida de personas con discapacidad mediante la educación y la inclusión. En nuestro futuro ideal, todos tienen acceso a la educación y oportunidades, impulsados por valores como el respeto y la igualdad. Trabajamos con pasión para liderar el cambio y transformar Guatemala.
-          </Text>
+          Nos dedicamos con pasión y alegría a forjar un futuro lleno de brillo y oportunidades para las personas con discapacidad. <br />
+          </Text><br />
         </VStack>
+
+        <iframe
+          src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fsonrisasangelicales%2Fvideos%2F685918296928455%2F&show_text=false&width=560&t=0"
+          width="1280"
+          height="720"
+          style={{ border: 'none', overflow: 'hidden' }}
+          scrolling="no"
+          frameBorder="0"
+          allowFullScreen={true}
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+        ></iframe>
         
+
+
         {/* Bottom */}
         <VStack paddingTop={50} spacing={6} width="full">
           <Button paddingX={12} size="lg">
-            Ir a mercadopago
+            CONOCE NUESTRO IMPACTO
           </Button>
-          <Link href="/">
-            <Text cursor="pointer" fontSize="sm" fontWeight={800} textColor="primary.500">
-              Prefiero hacer una transferencia
-            </Text>
-          </Link>
+          
         </VStack>
       </VStack>
     </Section>
   );
 };
 
-export default History;
+export default Historycopy;

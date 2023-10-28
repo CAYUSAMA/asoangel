@@ -19,13 +19,13 @@ interface SectionProps {
   hasGradientEffect?: boolean;
 }
 
-const Section: React.FC<SectionProps> = (props) => {
+const Sectioncopy: React.FC<SectionProps> = (props) => {
   const {
     backgroundColor = "white",
     dividerColor = "black",
     hasDivider = true,
     backgroundIsImage = false,
-    backgroundImage = "https://onewaycommunityus.org/wp-content/uploads/2020/11/image-4.jpg",
+    backgroundImage = "https://www.techtitute.com/techtitute/cursos/008134929/recursos/banner/experto-universitario-educacion-especial-educacion.jpg",
     hasGradientEffect = false,
     children,
   } = props;
@@ -55,4 +55,4 @@ const Section: React.FC<SectionProps> = (props) => {
   );
 };
 
-export default Section;
+export default Sectioncopy;
